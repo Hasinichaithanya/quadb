@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
   const fecthData = async () => {
-    const response = await fetch("http://localhost:8080/getTop10");
+    const response = await fetch("https://quadb-gec0.onrender.com/getTop10");
     cryptos = await response.json();
     const tbody = document.querySelector("#crypto-table tbody");
     tbody.innerHTML = "";

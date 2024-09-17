@@ -101,3 +101,33 @@ tbody tr td:nth-child(5),
 tbody tr td:nth-child(6) {
   color: red;
 }
+@media (max-width: 800px) {
+  .best-price-num {
+    font-size: 60px;
+    padding: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .best-price-num {
+    font-size: 35px;
+  }
+  .price-difference div h3 {
+    font-size: 20px;
+  }
+  .header-content,
+  .price-difference {
+    display: flex;
+    flex-direction: column;
+  }
+  .buy-btn,
+  .best-price {
+    margin-top: 30px;
+  }
+  table {
+    width: 70%;
+  }
+  .price-difference {
+    margin-top: 100px;
+    align-items: center;
+  }
+}
